@@ -12,7 +12,7 @@ public class Program
     {
         while (true)
         {
-            FindingLetterAndDigit findingDigitAndLetter = new FindingLetterAndDigit();
+            FindingLetterAndDigitService findingDigitAndLetter = new FindingLetterAndDigitService();
             Console.Write("Enter string :");
             string a = Console.ReadLine();
             findingDigitAndLetter.CounterLetters(a);
